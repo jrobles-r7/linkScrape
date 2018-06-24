@@ -1,0 +1,14 @@
+06/24/2018
+------------
+- Version 2.1 Master release
+	- Public release
+	- Fixed issue #30, Names with apostrophes or certs/titles in names fields aren't correctly mangled.
+	- Partially Fixed issue #45, Only write and display unique names to logs.
+
+06/21/2018
+------------
+- Version 2.0 Master release
+	- Added LinkedIn Company ID search.
+	- Added verbosity to STDOUT
+	- Refactored code to include LinkScraper class.
+	- Fixed issue #46, added CTRL C for gracefully exit /w mangle completion.
