@@ -351,7 +351,7 @@ def name(company_name, output, format_value, domain):
     elif format_value == 16:
         newname = mangleSixteen(names, company_name, domain, file_path)
     elif format_value == 99:
-        mangleAll(names, companyName, domain, file_path)
+        mangleAll(names, company_name, domain, file_path)
     else:
         sys.exit(2)
 
